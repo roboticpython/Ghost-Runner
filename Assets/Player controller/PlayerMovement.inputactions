@@ -1,0 +1,56 @@
+{
+    "name": "PlayerMovement",
+    "maps": [
+        {
+            "name": "floating",
+            "id": "017f0307-92b8-469a-b41b-08cc77111dd3",
+            "actions": [
+                {
+                    "name": "UPandDOWN",
+                    "type": "Button",
+                    "id": "ed8d9b65-c68f-4400-a27f-603317509df9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "54444419-5951-4e40-864c-e925f814166f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UPandDOWN",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "283e6cc2-38ce-4cb1-a67b-abf6663db6c8",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UPandDOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "900b420c-cb8a-4a9a-8fc8-4445ddb9219c",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UPandDOWN",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
